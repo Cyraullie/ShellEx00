@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -tF | while read line; do echo ${line}$", "; done | tr -d '\n'
